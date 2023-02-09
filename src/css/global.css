@@ -1,0 +1,28 @@
+html, body {
+    padding: 0;
+    margin: 0;
+	border: 0;
+    min-height: 100vh;
+    scroll-behavior:smooth
+   
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #000;
+    background: #DFE2E6;
+    font-size: 16px;
+}
+
+tbody {
+    border: 10px;
+    background: #2160b3;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+    max-width: var(--size-app);
+    min-width: 350px;
+    font-family: 'roboto', Arial;
+    color: #f9f9f9;
+}
+

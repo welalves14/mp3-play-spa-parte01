@@ -1,7 +1,9 @@
 import { useState } from 'react'
 import Player from "./components/Player"
+import Playlist from "./components/Playlist"
 import { Routes, Route } from "react-router-dom"
 import HomePage from "./pages/HomePage"
+import "./css/global.css"
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,7 @@ function App() {
       <Route path="/" element={<HomePage></HomePage>}>
         <Route index element={<span>Bem vindo</span>}/>
         <Route path="musica" element={<Player song={"Isto é uma música"}/>} />
+        <Route path="playlist" element={<Playlist/>} />
       </Route>
     </Routes>
     </>

@@ -7,6 +7,7 @@ function HomePage(){
                 <ul>
                     <li><Link to="/">Inicio</Link></li>
                     <li><Link to="/musica">Abrir Musicas</Link></li>
+                    <li><Link to="/playlist">Abrir Playlist</Link></li>
                 </ul>
             </nav>
             <div>
